@@ -1,0 +1,3 @@
+/Users/yangwenjia/workspace/source/word2vec/CMakeFiles/rebuild_cache.dir
+/Users/yangwenjia/workspace/source/word2vec/CMakeFiles/edit_cache.dir
+/Users/yangwenjia/workspace/source/word2vec/CMakeFiles/Demo.dir
