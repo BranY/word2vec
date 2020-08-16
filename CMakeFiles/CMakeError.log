@@ -1,7 +1,0 @@
-Determining if the C compiler works failed with the following output:
-Change Dir: /Users/yangwenjia/workspace/source/word2vec/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_b3391/fast"
-make: *** No rule to make target `cmTC_b3391/fast'.  Stop.
-
-
