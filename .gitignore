@@ -19,3 +19,5 @@ data/vectors-phrase.bin
 cmake-build-debug/
 CMakeFiles/
 build/
+src/zh/
+src/.DS_Store
