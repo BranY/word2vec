@@ -61,8 +61,6 @@ configure_file (
 # 查找当前目录下的所有源文件, 并将名称保存到 DIR_SRCS 变量
 aux_source_directory(. DIR_SRCS)
 
-# 添加子目录
-add_subdirectory(src/array)
 
 find_program( CLANG_TIDY NAMES clang-tidy)
 message("\n--------------------------------\n")
@@ -94,10 +92,10 @@ endif()
 file (GLOB_RECURSE files src/*.c)
 foreach (file ${files})
     string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
+    add_executable (${exe} ${file})
     # 子目录中添加编译选项
     target_link_libraries(${exe} pthread)
     target_link_libraries (${exe} ${Boost_LIBRARIES})
-    add_executable (${exe} ${file})
     message (\ \ \ \ --\ src/${exe}.c\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
 
