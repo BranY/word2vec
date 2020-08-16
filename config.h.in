@@ -1,1 +1,1 @@
-#cmakedefine USE_ARRAY
+#cmakedefine USE_MULTI
