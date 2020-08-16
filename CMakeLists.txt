@@ -1,7 +1,5 @@
 # cmake 最低版本要求
 cmake_minimum_required(VERSION 3.12)
-set (Demo_VERSION_MAJOR 1) # 项目主版本号
-set (Demo_VERSION_MINOR 0) # 项目次版本号
 
 # project name
 set(PROJECT_NAME word2vec)
